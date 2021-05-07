@@ -1,0 +1,80 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: #7c7c7c;
+  font-size: 36px;
+  text-align: center;
+}
+
+body h1 {
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+body ul {
+  display: inline-block;
+  text-align: left;
+  list-style-type: none;
+}
+
+body ul li {
+  font-size: 20px;
+}
+
+body p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+body button {
+  display: block;
+  padding: 15px 25px;
+  margin: 20px;
+  background: transparent;
+  border: 1px solid black;
+  font-size: 24px;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+body button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+body label {
+  display: block;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+body input {
+  padding: 10px;
+  min-width: 250px;
+  display: inline-block;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+/*# sourceMappingURL=style.css.map */
